@@ -18,7 +18,7 @@ Ionic Framework provides a few lifecycle methods that you can use in your apps:
 | `ionViewWillEnter` | Fired when the component routing to is about to animate into view. |
 | `ionViewDidEnter`  | Fired when the component routing to has finished animating.        |
 | `ionViewWillLeave` | Fired when the component routing from is about to animate.         |
-| `ionViewDidLeave`  | Fired when the component routing to has finished animating.        |
+| `ionViewDidLeave`  | Fired when the component routing from has finished animating.      |
 
 The lifecycles are defined the same way Vue lifecycle methods are - as functions at the root of your Vue component:
 
